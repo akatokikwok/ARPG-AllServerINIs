@@ -1,0 +1,247 @@
+[
+	{
+		"Name": "MainCharacter",
+		"ID": 1,
+		"Health": 520,
+		"Mana": 110,
+		"PhysicsAttack": 52,
+		"MagicAttack": 0,
+		"MagicDefense": 0,
+		"PhysicsDefense": 20,
+		"AttackRange": 200,
+		"SkillTags": [
+			{
+				"GameplayTags": [
+					{
+						"TagName": "Player.Skill.Dodge"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Skill"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
+			},
+			{
+				"GameplayTags": [
+					{
+						"TagName": "Player.Skill.Sprint"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Skill"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
+			}
+		],
+		"ComboAttackTags": [
+			{
+				"GameplayTags": [
+					{
+						"TagName": "Player.Attack.ComboLinkage"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Attack"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
+			}
+		],
+		"LimbsTags": [
+			{
+				"GameplayTags": [
+					{
+						"TagName": "Player.State.Die"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.State"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
+			},
+			{
+				"GameplayTags": [
+					{
+						"TagName": "Player.State.Hit"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.State"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
+			}
+		]
+	},
+	{
+		"Name": "CA_2",
+		"ID": 2,
+		"Health": 420,
+		"Mana": 250,
+		"PhysicsAttack": 32,
+		"MagicAttack": 32,
+		"MagicDefense": 10,
+		"PhysicsDefense": 20,
+		"AttackRange": 200,
+		"SkillTags": [
+			{
+				"GameplayTags": [
+					{
+						"TagName": "Player.Skill.Dodge"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Skill"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
+			},
+			{
+				"GameplayTags": [
+					{
+						"TagName": "Player.Skill.Sprint"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Skill"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
+			}
+		],
+		"ComboAttackTags": [
+			{
+				"GameplayTags": [
+					{
+						"TagName": "Player.Attack.ComboLinkage"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Attack"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
+			}
+		],
+		"LimbsTags": [
+			{
+				"GameplayTags": [
+					{
+						"TagName": "Player.State.Die"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.State"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
+			},
+			{
+				"GameplayTags": [
+					{
+						"TagName": "Player.State.Hit"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.State"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
+			}
+		]
+	},
+	{
+		"Name": "Mushroom",
+		"ID": 100,
+		"Health": 340,
+		"Mana": 100,
+		"PhysicsAttack": 43,
+		"MagicAttack": 10,
+		"MagicDefense": 0,
+		"PhysicsDefense": 20,
+		"AttackRange": 200,
+		"SkillTags": [],
+		"ComboAttackTags": [
+			{
+				"GameplayTags": [
+					{
+						"TagName": "Player.Attack.ComboLinkage"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Attack"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
+			}
+		],
+		"LimbsTags": [
+			{
+				"GameplayTags": [
+					{
+						"TagName": "Player.State.Die"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.State"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
+			},
+			{
+				"GameplayTags": [
+					{
+						"TagName": "Player.State.Hit"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.State"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
+			}
+		]
+	}
+]
