@@ -2,6 +2,7 @@
 	{
 		"Name": "MainCharacter",
 		"ID": 1,
+		"Level": 1,
 		"Health": 520,
 		"Mana": 110,
 		"PhysicsAttack": 52,
@@ -9,91 +10,41 @@
 		"MagicDefense": 0,
 		"PhysicsDefense": 20,
 		"AttackRange": 200,
+		"MaxEmpiricalValue": 100,
+		"DamageBase": 15,
+		"ExperienceReward": 30,
 		"SkillTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Skill.Dodge"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Skill"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Skill.Dodge"
 			},
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Skill.Sprint"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Skill"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Skill.Sprint"
+			},
+			{
+				"TagName": "Player.Skill.WhirlwindBlow"
+			},
+			{
+				"TagName": "Player.Skill.SprintWhirlwindBlow"
 			}
 		],
 		"ComboAttackTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Attack.ComboLinkage"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Attack"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Attack.ComboLinkage"
 			}
 		],
 		"LimbsTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.State.Die"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.State"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.State.Die"
 			},
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.State.Hit"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.State"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.State.Hit"
 			}
 		]
 	},
 	{
 		"Name": "CA_2",
 		"ID": 2,
+		"Level": 1,
 		"Health": 420,
 		"Mana": 250,
 		"PhysicsAttack": 32,
@@ -101,91 +52,35 @@
 		"MagicDefense": 10,
 		"PhysicsDefense": 20,
 		"AttackRange": 200,
+		"MaxEmpiricalValue": 100,
+		"DamageBase": 15,
+		"ExperienceReward": 30,
 		"SkillTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Skill.Dodge"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Skill"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Skill.Dodge"
 			},
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Skill.Sprint"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Skill"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Skill.Sprint"
 			}
 		],
 		"ComboAttackTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Attack.ComboLinkage"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Attack"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Attack.ComboLinkage"
 			}
 		],
 		"LimbsTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.State.Die"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.State"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.State.Die"
 			},
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.State.Hit"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.State"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.State.Hit"
 			}
 		]
 	},
 	{
 		"Name": "Mushroom",
-		"ID": 100,
+		"ID": 16424,
+		"Level": 1,
 		"Health": 340,
 		"Mana": 100,
 		"PhysicsAttack": 43,
@@ -193,54 +88,21 @@
 		"MagicDefense": 0,
 		"PhysicsDefense": 20,
 		"AttackRange": 200,
+		"MaxEmpiricalValue": 100,
+		"DamageBase": 15,
+		"ExperienceReward": 30,
 		"SkillTags": [],
 		"ComboAttackTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Attack.ComboLinkage"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Attack"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Attack.ComboLinkage"
 			}
 		],
 		"LimbsTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.State.Die"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.State"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.State.Die"
 			},
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.State.Hit"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.State"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.State.Hit"
 			}
 		]
 	}
