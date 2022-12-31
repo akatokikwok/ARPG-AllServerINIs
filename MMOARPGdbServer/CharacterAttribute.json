@@ -25,6 +25,12 @@
 			},
 			{
 				"TagName": "Player.Skill.SprintWhirlwindBlow"
+			},
+			{
+				"TagName": "Player.Skill.EscapeToKill"
+			},
+			{
+				"TagName": "Player.Skill.StreamBlade"
 			}
 		],
 		"ComboAttackTags": [
