@@ -15,22 +15,10 @@
 		"ExperienceReward": 30,
 		"SkillTags": [
 			{
-				"TagName": "Player.Skill.Dodge"
+				"TagName": "Character.Skill.Sprint"
 			},
 			{
-				"TagName": "Player.Skill.Sprint"
-			},
-			{
-				"TagName": "Player.Skill.WhirlwindBlow"
-			},
-			{
-				"TagName": "Player.Skill.SprintWhirlwindBlow"
-			},
-			{
-				"TagName": "Player.Skill.EscapeToKill"
-			},
-			{
-				"TagName": "Player.Skill.StreamBlade"
+				"TagName": "Character.Skill.Dodge"
 			}
 		],
 		"ComboAttackTags": [
