@@ -15,23 +15,83 @@
 		"ExperienceReward": 30,
 		"SkillTags": [
 			{
-				"TagName": "Character.Skill.Sprint"
+				"GameplayTags": [
+					{
+						"TagName": "Player.Skill.Sprint"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Skill"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
 			},
 			{
-				"TagName": "Character.Skill.Dodge"
+				"GameplayTags": [
+					{
+						"TagName": "Player.Skill.Dodge"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Skill"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
 			}
 		],
 		"ComboAttackTags": [
 			{
-				"TagName": "Player.Attack.ComboLinkage"
+				"GameplayTags": [
+					{
+						"TagName": "Player.Attack.ComboLinkage"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Attack"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
 			}
 		],
 		"LimbsTags": [
 			{
-				"TagName": "Player.State.Die"
+				"GameplayTags": [
+					{
+						"TagName": "Player.State.Die"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.State"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
 			},
 			{
-				"TagName": "Player.State.Hit"
+				"GameplayTags": [
+					{
+						"TagName": "Player.State.Hit"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.State"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
 			}
 		]
 	},
@@ -51,23 +111,83 @@
 		"ExperienceReward": 30,
 		"SkillTags": [
 			{
-				"TagName": "Player.Skill.Dodge"
+				"GameplayTags": [
+					{
+						"TagName": "Player.Skill.Dodge"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Skill"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
 			},
 			{
-				"TagName": "Player.Skill.Sprint"
+				"GameplayTags": [
+					{
+						"TagName": "Player.Skill.Sprint"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Skill"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
 			}
 		],
 		"ComboAttackTags": [
 			{
-				"TagName": "Player.Attack.ComboLinkage"
+				"GameplayTags": [
+					{
+						"TagName": "Player.Attack.ComboLinkage"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Attack"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
 			}
 		],
 		"LimbsTags": [
 			{
-				"TagName": "Player.State.Die"
+				"GameplayTags": [
+					{
+						"TagName": "Player.State.Die"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.State"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
 			},
 			{
-				"TagName": "Player.State.Hit"
+				"GameplayTags": [
+					{
+						"TagName": "Player.State.Hit"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.State"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
 			}
 		]
 	},
@@ -88,15 +208,51 @@
 		"SkillTags": [],
 		"ComboAttackTags": [
 			{
-				"TagName": "Player.Attack.ComboLinkage"
+				"GameplayTags": [
+					{
+						"TagName": "Player.Attack.ComboLinkage"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.Attack"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
 			}
 		],
 		"LimbsTags": [
 			{
-				"TagName": "Player.State.Die"
+				"GameplayTags": [
+					{
+						"TagName": "Player.State.Die"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.State"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
 			},
 			{
-				"TagName": "Player.State.Hit"
+				"GameplayTags": [
+					{
+						"TagName": "Player.State.Hit"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "Player.State"
+					},
+					{
+						"TagName": "Player"
+					}
+				]
 			}
 		]
 	}
