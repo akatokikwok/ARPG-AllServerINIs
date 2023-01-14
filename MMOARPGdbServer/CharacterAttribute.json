@@ -13,85 +13,29 @@
 		"MaxEmpiricalValue": 100,
 		"DamageBase": 15,
 		"ExperienceReward": 30,
+		"StaminaValue": 100,
+		"MaxStaminaValue": 100,
+		"HealthRate": 0,
+		"ManaRate": 0,
 		"SkillTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Skill.Sprint"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Skill"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Skill.Sprint"
 			},
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Skill.Dodge"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Skill"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Skill.Dodge"
 			}
 		],
 		"ComboAttackTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Attack.ComboLinkage"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Attack"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Attack.ComboLinkage"
 			}
 		],
 		"LimbsTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.State.Die"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.State"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.State.Die"
 			},
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.State.Hit"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.State"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.State.Hit"
 			}
 		]
 	},
@@ -109,85 +53,30 @@
 		"MaxEmpiricalValue": 100,
 		"DamageBase": 15,
 		"ExperienceReward": 30,
+		"StaminaValue": 100,
+		"MaxStaminaValue": 100,
+		"HealthRate": 0,
+		"ManaRate": 0,
+		"StaminaRate": 0,
 		"SkillTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Skill.Dodge"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Skill"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Skill.Sprint"
 			},
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Skill.Sprint"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Skill"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Skill.Dodge"
 			}
 		],
 		"ComboAttackTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Attack.ComboLinkage"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Attack"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Attack.ComboLinkage"
 			}
 		],
 		"LimbsTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.State.Die"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.State"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.State.Die"
 			},
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.State.Hit"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.State"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.State.Hit"
 			}
 		]
 	},
@@ -205,54 +94,23 @@
 		"MaxEmpiricalValue": 100,
 		"DamageBase": 15,
 		"ExperienceReward": 30,
+		"StaminaValue": 100,
+		"MaxStaminaValue": 100,
+		"HealthRate": 0,
+		"ManaRate": 0,
+		"StaminaRate": 0,
 		"SkillTags": [],
 		"ComboAttackTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.Attack.ComboLinkage"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.Attack"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.Attack.ComboLinkage"
 			}
 		],
 		"LimbsTags": [
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.State.Die"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.State"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.State.Die"
 			},
 			{
-				"GameplayTags": [
-					{
-						"TagName": "Player.State.Hit"
-					}
-				],
-				"ParentTags": [
-					{
-						"TagName": "Player.State"
-					},
-					{
-						"TagName": "Player"
-					}
-				]
+				"TagName": "Player.State.Hit"
 			}
 		]
 	}
