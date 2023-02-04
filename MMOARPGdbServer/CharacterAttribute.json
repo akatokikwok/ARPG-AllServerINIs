@@ -1,4 +1,4 @@
-[
+﻿[
 	{
 		"Name": "MainCharacter",
 		"ID": 1,
@@ -17,6 +17,7 @@
 		"MaxStaminaValue": 100,
 		"HealthRate": 0,
 		"ManaRate": 0,
+		"StaminaRate": 0,
 		"SkillTags": [
 			{
 				"TagName": "Player.Skill.Sprint"
@@ -27,7 +28,10 @@
 		],
 		"ComboAttackTags": [
 			{
-				"TagName": "Player.Attack.ComboLinkage"
+				"TagName": "Player.Attack.ComboLinkage.Air"
+			},
+			{
+				"TagName": "Player.Attack.ComboLinkage.Ground"
 			}
 		],
 		"LimbsTags": [
@@ -68,7 +72,10 @@
 		],
 		"ComboAttackTags": [
 			{
-				"TagName": "Player.Attack.ComboLinkage"
+				"TagName": "Player.Attack.ComboLinkage.Air"
+			},
+			{
+				"TagName": "Player.Attack.ComboLinkage.Ground"
 			}
 		],
 		"LimbsTags": [
@@ -102,7 +109,7 @@
 		"SkillTags": [],
 		"ComboAttackTags": [
 			{
-				"TagName": "Player.Attack.ComboLinkage"
+				"TagName": "Player.Attack.ComboLinkage.Ground"
 			}
 		],
 		"LimbsTags": [
