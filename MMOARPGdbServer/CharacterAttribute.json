@@ -1,4 +1,4 @@
-﻿[
+[
 	{
 		"Name": "MainCharacter",
 		"ID": 1,
@@ -18,22 +18,8 @@
 		"HealthRate": 0,
 		"ManaRate": 0,
 		"StaminaRate": 0,
-		"SkillTags": [
-			{
-				"TagName": "Player.Skill.Sprint"
-			},
-			{
-				"TagName": "Player.Skill.Dodge"
-			}
-		],
-		"ComboAttackTags": [
-			{
-				"TagName": "Player.Attack.ComboLinkage.Air"
-			},
-			{
-				"TagName": "Player.Attack.ComboLinkage.Ground"
-			}
-		],
+		"SkillTags": [],
+		"ComboAttackTags": [],
 		"LimbsTags": [
 			{
 				"TagName": "Player.State.Die"
@@ -62,22 +48,8 @@
 		"HealthRate": 0,
 		"ManaRate": 0,
 		"StaminaRate": 0,
-		"SkillTags": [
-			{
-				"TagName": "Player.Skill.Sprint"
-			},
-			{
-				"TagName": "Player.Skill.Dodge"
-			}
-		],
-		"ComboAttackTags": [
-			{
-				"TagName": "Player.Attack.ComboLinkage.Air"
-			},
-			{
-				"TagName": "Player.Attack.ComboLinkage.Ground"
-			}
-		],
+		"SkillTags": [],
+		"ComboAttackTags": [],
 		"LimbsTags": [
 			{
 				"TagName": "Player.State.Die"
@@ -110,6 +82,9 @@
 		"ComboAttackTags": [
 			{
 				"TagName": "Player.Attack.ComboLinkage.Ground"
+			},
+			{
+				"TagName": "Player.Attack.ComboLinkage.Air"
 			}
 		],
 		"LimbsTags": [
