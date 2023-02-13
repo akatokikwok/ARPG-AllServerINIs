@@ -95,5 +95,39 @@
 				"TagName": "Player.State.Hit"
 			}
 		]
+	},
+	{
+		"Name": "ForestGolem",
+		"ID": 30001,
+		"Level": 1,
+		"Health": 4560,
+		"Mana": 1500,
+		"PhysicsAttack": 235,
+		"MagicAttack": 100,
+		"MagicDefense": 100,
+		"PhysicsDefense": 200,
+		"AttackRange": 200,
+		"MaxEmpiricalValue": 1405,
+		"DamageBase": 50,
+		"ExperienceReward": 4000,
+		"StaminaValue": 100,
+		"MaxStaminaValue": 100,
+		"HealthRate": 0,
+		"ManaRate": 0,
+		"StaminaRate": 0,
+		"SkillTags": [],
+		"ComboAttackTags": [
+			{
+				"TagName": "Player.Attack.ComboLinkage.Ground"
+			}
+		],
+		"LimbsTags": [
+			{
+				"TagName": "Player.State.Die"
+			},
+			{
+				"TagName": "Player.State.Hit"
+			}
+		]
 	}
 ]
