@@ -26,6 +26,9 @@
 			},
 			{
 				"TagName": "Player.State.Hit"
+			},
+			{
+				"TagName": "Player.State.Stun"
 			}
 		]
 	},
@@ -56,6 +59,9 @@
 			},
 			{
 				"TagName": "Player.State.Hit"
+			},
+			{
+				"TagName": "Player.State.Stun"
 			}
 		]
 	},
@@ -93,6 +99,9 @@
 			},
 			{
 				"TagName": "Player.State.Hit"
+			},
+			{
+				"TagName": "Player.State.Stun"
 			}
 		]
 	},
@@ -127,6 +136,9 @@
 			},
 			{
 				"TagName": "Player.State.Hit"
+			},
+			{
+				"TagName": "Player.State.Stun"
 			}
 		]
 	}
